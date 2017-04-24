@@ -1,6 +1,12 @@
 
 # react-native-app-store-review
 
+![ios-10 3-beta-1-note-application](https://cloud.githubusercontent.com/assets/3551795/25345134/81e6c8f8-2914-11e7-8ef4-68dded9073d1.jpg)
+
+This library allow you to print the new iOS 10.3 rate pop-up.
+If your users use a version of iOS higher than 8.0 but lesser than 10.3 a new view within the app is pushed with the app store page of your app.
+And if your user got an iOS version lesser than 8.0, it will be redirected on the app store in the write review section of your app.
+
 ## Getting started
 
 `$ npm install react-native-app-store-review --save`
