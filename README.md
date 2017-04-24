@@ -1,7 +1,8 @@
 
 # react-native-app-store-review
 
-![ios-10 3-beta-1-note-application](https://cloud.githubusercontent.com/assets/3551795/25345134/81e6c8f8-2914-11e7-8ef4-68dded9073d1.jpg)
+![rsz_ios-103-beta-1-note-application](https://cloud.githubusercontent.com/assets/3551795/25345288/f78ff17e-2914-11e7-9939-8d2f6897bf7e.jpg)
+
 
 This library allow you to print the new iOS 10.3 rate pop-up.
 If your users use a version of iOS higher than 8.0 but lesser than 10.3 a new view within the app is pushed with the app store page of your app.
