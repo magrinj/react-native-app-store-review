@@ -2,9 +2,15 @@ import { NativeModules } from 'react-native';
 
 const { RNAppStoreReview } = NativeModules;
 
-export function requestReview(appIdentifier) {
-  if (!RNAppStoreReview) {
-    throw new Error('RNAppStoreReview library seems to be not linked to your project...');
+class AppStoreReview {
+
+  static requestReview(appIdentifier) {
+    if (!RNAppStoreReview) {
+      console.error('RNAppStoreReview library seems to be not linked to your project...');
+    }
+    return RNAppStoreReview.requestReview(appIdentifier);
   }
-  return RNAppStoreReview.requestReview(appIdentifier);
+
 }
+
+export default AppStoreReview;

@@ -1,1 +1,3 @@
-export default * from './src';
+import Index from './src/index';
+
+export default Index;
