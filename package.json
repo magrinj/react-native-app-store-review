@@ -1,0 +1,43 @@
+{
+  "name": "react-native-app-store-review",
+  "version": "0.0.1",
+  "description": "Rate on app store inside your app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:magrinj/react-native-app-store-review.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "review",
+    "app-store",
+    "app",
+    "ios",
+    "store",
+    "mobile",
+    "rating",
+    "reviews",
+    "rate"
+  ],
+  "author": "Jeremy Magrin",
+  "license": "MIT",
+  "homepage": "https://github.com/magrinj/react-native-app-store-review",
+  "bugs": {
+    "url": "https://github.com/magrinj/react-native-app-store-review/issues"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.20.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.18.0",
+    "eslint-plugin-flowtype": "^2.30.3",
+    "eslint-plugin-react": "^6.10.2"
+  }
+}
