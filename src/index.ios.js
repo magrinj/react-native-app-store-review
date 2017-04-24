@@ -6,7 +6,7 @@ class AppStoreReview {
 
   static requestReview(appIdentifier) {
     if (!RNAppStoreReview) {
-      console.error('RNAppStoreReview library seems to be not linked to your project...');
+      return console.error('RNAppStoreReview library seems to be not linked to your project...');
     }
     return RNAppStoreReview.requestReview(appIdentifier);
   }
