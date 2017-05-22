@@ -32,3 +32,8 @@ import AppStoreReview from 'react-native-app-store-review';
 
 AppStoreReview.requestReview('1234567890'); // Change to your app store id
 ```
+
+## TODO
+
+Feel free to add something for Android :) 
+
