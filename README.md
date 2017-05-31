@@ -37,3 +37,15 @@ AppStoreReview.requestReview('1234567890'); // Change to your app store id
 
 Feel free to add something for Android :) 
 
+## Troubleshooting
+
+Please first read the Apple documentation: https://developer.apple.com/reference/storekit/skstorereviewcontroller/2851536-requestreview#discussion
+
+Release app:
+In release mode apple allow you to print this the review pop-up only 3-4 times a year
+
+TestFlight app:
+If you submit your app with testflight for test, the review pop-up will not be printed
+
+Dev app:
+The review pop-up is printed each time you call the function, but the submit button stay grey
