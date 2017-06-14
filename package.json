@@ -1,6 +1,6 @@
 {
   "name": "react-native-app-store-review",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Rate on app store inside your app",
   "main": "index.js",
   "scripts": {
