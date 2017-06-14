@@ -59,7 +59,8 @@ RCT_EXPORT_MODULE();
     [viewController dismissViewControllerAnimated:YES completion:nil];
 }
 
-RCT_EXPORT_METHOD(requestReview:(NSString *) appIdentifier)
+RCT_EXPORT_METHOD(resolver:(RCTPromiseResolveBlock)resolve
+                  rejecter:(RCTPromiseRejectBlock)reject)
 {
     if ([SKStoreReviewController class]) {
         [SKStoreReviewController requestReview];

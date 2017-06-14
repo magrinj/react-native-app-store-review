@@ -19,6 +19,9 @@
 
 @interface RNAppStoreReview: NSObject <RCTBridgeModule, SKStoreProductViewControllerDelegate>
 
+@property (nonatomic, strong) RCTPromiseResolveBlock resolve;
+@property (nonatomic, strong) RCTPromiseRejectBlock reject;
+
 @end
 
 #endif /* AppRate_h */
