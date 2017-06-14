@@ -9,8 +9,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
-
 @implementation RNAppStoreReview
 
 RCT_EXPORT_MODULE();
@@ -63,9 +61,9 @@ RCT_EXPORT_MODULE();
 
 RCT_EXPORT_METHOD(requestReview:(NSString *) appIdentifier)
 {
-    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"10.3")) {
+    if ([SKStoreReviewController class]) {
         [SKStoreReviewController requestReview];
-    } else if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0")) {
+    } else if ([SKStoreProductViewController class]) {
         [self openStoreProductWithiTunesItemIdentifierWithinApp:appIdentifier];
     } else {
         [self openStoreProductWithiTunesItemIdentifier:appIdentifier];
