@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   Rate on app store inside your app
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/magrinj/react-native-app-store-review"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "jeremy.magrin@gmail.com" }
