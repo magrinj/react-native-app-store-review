@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNAppStoreReview"
-  s.version      = "0.0.1"
+  s.version      = "0.0.4"
   s.summary      = "RNAppStoreReview"
   s.description  = <<-DESC
                   Rate on app store inside your app
