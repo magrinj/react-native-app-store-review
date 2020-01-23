@@ -14,7 +14,19 @@ And if your user got an iOS version lesser than 8.0, it will be redirected on th
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-app-store-review`
+```
+cd ios
+```
+
+Add this line to ios/Podfile
+```
+  pod 'RNAppStoreReview', :path => '../node_modules/react-native-app-store-review'
+```
+
+Run this
+```
+pod install
+```
 
 ### Manual installation
 
