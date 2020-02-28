@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/magrinj/react-native-app-store-review.git"
+    "url": "git+https://github.com/github_account/react-native-app-store-review.git",
+    "baseUrl": "https://github.com/github_account/react-native-app-store-review"
   },
   "keywords": [
     "react-native",
@@ -25,12 +26,19 @@
     "reviews",
     "rate"
   ],
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "files": [
+    "/ios",
+    "/index.js",
+    "/src",
+    "/*.podspec"
+  ],
   "author": {
     "email": "contact@magrin.fr",
     "name": "Jeremy Magrin"
   },
   "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
   "homepage": "https://github.com/magrinj/react-native-app-store-review",
   "bugs": {
     "url": "https://github.com/magrinj/react-native-app-store-review/issues"
