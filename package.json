@@ -25,7 +25,10 @@
     "reviews",
     "rate"
   ],
-  "author": "Jeremy Magrin",
+  "author": {
+    "email": "contact@magrin.fr",
+    "name": "Jeremy Magrin"
+  },
   "license": "MIT",
   "homepage": "https://github.com/magrinj/react-native-app-store-review",
   "bugs": {
