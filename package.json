@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:magrinj/react-native-app-store-review.git"
+    "url": "git+ssh://git@github.com/magrinj/react-native-app-store-review.git"
   },
   "keywords": [
     "react-native",
