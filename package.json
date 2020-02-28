@@ -1,6 +1,6 @@
 {
   "name": "react-native-app-store-review",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Rate on app store inside your app",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
     "reviews",
     "rate"
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": {
     "email": "contact@magrin.fr",
     "name": "Jeremy Magrin"
@@ -39,7 +40,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
-    "eslint": "^3.18.0",
+    "eslint": "^4.18.2",
     "eslint-plugin-flowtype": "^2.30.3",
     "eslint-plugin-react": "^6.10.2"
   }
