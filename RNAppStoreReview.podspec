@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNAppStoreReview"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "RNAppStoreReview"
   s.description  = <<-DESC
                   Rate on app store inside your app
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "jeremy.magrin@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/magrinj/react-native-app-store-review.git", :tag => "master" }
-  s.source_files  = "RNAppStoreReview/**/*.{h,m}"
+  s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc = true
 
 
